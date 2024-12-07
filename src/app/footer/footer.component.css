@@ -1,0 +1,36 @@
+footer {
+    background-color: #202730;
+    color: rgba(255, 255, 255, 0.4);
+    padding: 20px 0;
+    font-weight: 400;
+    height: 113px;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: Open_Sans,Open Sans,Arial,sans-serif;
+    display: block;
+    
+}
+
+.footerInner {
+    text-align: center;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, .4);
+    font-weight: 600;
+    padding: 20px 0 0;
+}
+
+.mbLink {
+    padding-top: 9px;
+    line-height: 22px;
+}
+
+.mbLink a {
+font-size: 13px;
+color: rgba(255, 255, 255, 0.8);
+margin: 0 6px;
+}
+
+a {
+text-decoration: none;
+}

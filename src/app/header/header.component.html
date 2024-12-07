@@ -1,0 +1,20 @@
+<header class="main-header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <div class="header-main d-flex justify-content-between align-items-center">
+        <div class="header-left d-flex align-items-center">
+          <a class="logo-link" routerLink="/home">
+            <img src="https://cdn.staticmb.com/magicservicestatic/images/revamp/mb-logo-web-white.svg" width="160" height="" alt="MagicBricks">
+          </a>
+          <a class="link">Gurgaon</a>
+        </div>
+        <div class="header-right d-flex align-items-center">
+          <a class="link">Help</a>
+          <a class="link" routerLink="/login" *ngIf="!authService.isLoggedIn()">Login</a>
+          <a class="link" (click)="logout()" *ngIf="authService.isLoggedIn()">Logout</a>
+          <a class="btn">Post Property Free</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

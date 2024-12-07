@@ -1,0 +1,13 @@
+<div class="design">
+    <div class="container">
+		<h2>Signup</h2>
+		<form>
+			<input [(ngModel)]= "name" type="text" placeholder="Full Name" name="name" required>
+			<input [(ngModel)]= "email" type="email" placeholder="Email" name="email" required>
+			<input [(ngModel)]= "mobile" type="text" placeholder="Mobile" name="mobile" required>
+			<input [(ngModel)]= "password" type="password" placeholder="Password" name="password" required>
+			<button (click)="submit()">Signup</button>
+			<p class="smaller-text">Already have an account? <a routerLink="/login">Login</a></p>
+		</form>
+	</div>
+</div>

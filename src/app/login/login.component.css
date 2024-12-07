@@ -1,0 +1,48 @@
+.design{
+    background-image: url("https://cdn.staticmb.com/loginstatic/images/bg-icon-1.png");
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    height: 410px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #D8232A;
+    margin-bottom: 30px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #D8232A;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #b71c21;
+}
+
+.smaller-text{
+    color: #989696;
+    margin-top: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,60 @@
+<main>
+  <div class="property-details row">
+    <div class="property-images col-md-6">
+      <div class="main-image">
+        <img id="mainImage" [src]="url" alt="Property Main Image" style="width: 558px; height: 289px; object-fit: fill;">
+      </div>
+      <div class="thumbnail-gallery" *ngFor = "let property of propertyData">
+        <div class="thumbnail" (click)="imagePreview(property.imgSrc)"><img [src]="property.imgSrc" alt="Thumbnail"></div>
+        <div class="thumbnail" (click)="imagePreview(property.imgSrc2)"><img [src]="property.imgSrc2" alt="Thumbnail"></div>
+        <div class="thumbnail" (click)="imagePreview(property.imgSrc3)"><img [src]="property.imgSrc3" alt="Thumbnail"></div>
+        <div class="thumbnail" (click)="imagePreview('https://real-estate-management.netlify.app/assets/images/no-image.jpeg')"><img src="https://real-estate-management.netlify.app/assets/images/no-image.jpeg" alt="Thumbnail"></div>
+        <div class="thumbnail" (click)="imagePreview('https://real-estate-management.netlify.app/assets/images/no-image.jpeg')"><img src="https://real-estate-management.netlify.app/assets/images/no-image.jpeg" alt="Thumbnail"></div>
+      </div>
+    </div>
+    <div class="property-details-content col-md-6" *ngFor = "let property of propertyData">
+      <h2>{{property.type}} {{property.location}}</h2>
+      <div class="property-info">
+        <p><strong>Price:</strong> {{property.price}}</p>
+        <p><strong>Area:</strong> {{property.location}}</p>
+        <p><strong>Status:</strong> {{property.status}}</p>
+      </div>
+      <div class="property-features">
+        <h3>Features</h3>
+        <div class="features-list">
+          <div class="feature-item"><i class="fas fa-check"></i> Park Facing</div>
+          <div class="feature-item"><i class="fas fa-check"></i> Gated Community</div>
+          <div class="feature-item"><i class="fas fa-check"></i> Swimming Pool</div>
+          <div class="feature-item"><i class="fas fa-check"></i> Gym</div>
+        </div>
+      </div>
+      <div class="property-description">
+        <h3>Description</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper sapien ac metus laoreet, vel pellentesque elit pulvinar. Nunc id eros vitae urna ultrices volutpat quis in massa.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form">
+    <h3>Enquire Now</h3>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </div>
+</main>

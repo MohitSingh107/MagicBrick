@@ -1,0 +1,92 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "imgSrc": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/04/Photo_h180_w240/72345629_1_PropertyImage1714845692736_180_240.jpg",
+        "imgSrc2":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/kitchen-1_1__ydLwMBXTp.jpg?updatedAt=1630834880311",
+        "imgSrc3":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/bedroom-1_1__vaf0icwViPQ.jpg?updatedAt=1630834880105",
+        "type": "3 BHK Flat",
+        "price": "₹1.85 Cr",
+        "size": "2000 sqft",
+        "location": "Phase 1 Ashok Vihar, New Delhi",
+        "status": "Ready to Move"
+      },
+      {
+        "id": 2,
+        "imgSrc": "https://img.staticmb.com/mbphoto/property/cropped_images/2020/May/24/Photo_h180_w240/49124391_1_PropertyImage23-754160266850064_180_240.jpg",
+        "imgSrc2":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/kitchen-1_1__ydLwMBXTp.jpg?updatedAt=1630834880311",
+        "imgSrc3":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/bedroom-1_1__vaf0icwViPQ.jpg?updatedAt=1630834880105",
+        "type": "1 BHK Flat",
+        "price": "₹24 Lac",
+        "size": "495 sqft",
+        "location": "Roshanara Road, Shakti Nagar, New Delhi",
+        "status": "Ready to Move"
+      },
+      {
+        "id": 3,
+        "imgSrc": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Mar/12/Photo_h180_w240/71733077_1_PropertyImage1710234296559_180_240.jpg",
+        "imgSrc2":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/kitchen-1_1__ydLwMBXTp.jpg?updatedAt=1630834880311",
+        "imgSrc3":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/bedroom-1_1__vaf0icwViPQ.jpg?updatedAt=1630834880105",
+        "type": "4 BHK Flat",
+        "price": "₹17 Cr",
+        "size": "3600 sqft",
+        "location": "Block H Vikaspuri, New Delhi",
+        "status": "Ready to Move"
+      },
+      {
+        "id": 4,
+        "imgSrc": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Mar/15/Photo_h180_w240/71857085_1_PropertyImage436-18536600940604_180_240.jpg",
+        "imgSrc2":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/kitchen-1_1__ydLwMBXTp.jpg?updatedAt=1630834880311",
+        "imgSrc3":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/bedroom-1_1__vaf0icwViPQ.jpg?updatedAt=1630834880105",
+        "type": "1 BHK Flat",
+        "price": "₹30 Lac",
+        "size": "495 sqft",
+        "location": "Block VB Virender Nagar, New Delhi",
+        "status": "Ready to Move"
+      },
+      {
+        "id": 5,
+        "imgSrc": "https://img.staticmb.com/mbphoto/property/cropped_images/2023/Jun/15/Photo_h180_w240/67527471_1_IMG-20200912-WA0073_180_240.jpg",
+        "imgSrc2":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/kitchen-1_1__ydLwMBXTp.jpg?updatedAt=1630834880311",
+        "imgSrc3":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/bedroom-1_1__vaf0icwViPQ.jpg?updatedAt=1630834880105",
+        "type": "2 BHK Flat",
+        "price": "₹30 Lac",
+        "size": "743 sqft",
+        "location": "Vasundhara Enclave, New Delhi",
+        "status": "Ready to Move"
+      },
+      {
+        "id": 6,
+        "imgSrc": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/May/19/Photo_h180_w240/72346577_1_PropertyImage1716098864635_180_240.jpg",
+        "imgSrc2":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/kitchen-1_1__ydLwMBXTp.jpg?updatedAt=1630834880311",
+        "imgSrc3":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/bedroom-1_1__vaf0icwViPQ.jpg?updatedAt=1630834880105",
+        "type": "3 BHK Flat",
+        "price": "₹75 Lac",
+        "size": "1300 sqft",
+        "location": "Vikaspuri, New Delhi",
+        "status": "Ready to Move"
+      },
+      {
+        "id": 7,
+        "imgSrc": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Mar/01/Photo_h180_w240/71596089_3_PropertyImage1709308386283_180_240.jpg",
+        "imgSrc2":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/kitchen-1_1__ydLwMBXTp.jpg?updatedAt=1630834880311",
+        "imgSrc3":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/bedroom-1_1__vaf0icwViPQ.jpg?updatedAt=1630834880105",
+        "type": "2 BHK Flat",
+        "price": "₹23 Lac",
+        "size": "540 sqft",
+        "location": "Sagar Pur, New Delhi",
+        "status": "Ready to Move"
+      },
+      {
+        "id": 8,
+        "imgSrc": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Mar/14/Photo_h180_w240/71862895_6_PropertyImage620-9232859867002_180_240.jpg",
+        "imgSrc2":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/kitchen-1_1__ydLwMBXTp.jpg?updatedAt=1630834880311",
+        "imgSrc3":"https://ik.imagekit.io/wr5lnrww0q8/REM_Folder/bedroom-1_1__vaf0icwViPQ.jpg?updatedAt=1630834880105",
+        "type": "1 BHK Flat",
+        "price": "₹25 Lac",
+        "size": "538 sqft",
+        "location": "Mehrauli, New Delhi",
+        "status": "Ready to Move"
+      }
+    ]
+}

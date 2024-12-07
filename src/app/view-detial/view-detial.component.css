@@ -1,0 +1,115 @@
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.property-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.property-images {
+  flex: 1;
+  max-width: 600px;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+}
+
+.thumbnail-gallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumbnail img {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail img:hover {
+  transform: scale(1.1);
+}
+
+.property-details-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.property-info,
+.property-features,
+.property-description {
+  margin-bottom: 20px;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.feature-item {
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.feature-item i {
+  color: #d8232a;
+  margin-right: 5px;
+}
+
+.contact-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d8232a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b71c22;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .property-details {
+    flex-direction: column;
+  }
+}
